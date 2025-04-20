@@ -19,7 +19,7 @@ class ProductController extends Controller
             $query->orderBy('price', $request->input('sort'));
         }
 
-        $products = $query->paginate(6);
+        //$products = $query->paginate(6);
 
         return view('products.index', compact('products'));
     }
@@ -73,4 +73,3 @@ class ProductController extends Controller
         return redirect()->route('products.index')->with('success', '商品を削除しました');
     }
 }
-

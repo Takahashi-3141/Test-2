@@ -1,6 +1,8 @@
 mogitate
+
 環境構築
 ・Dockerのビルド
+
 ・git clone git@github.com:Takahashi-3141/Test.git
 cd Test
 
